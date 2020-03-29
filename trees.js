@@ -9,6 +9,8 @@ function draw() {
     //this sets the line to white, 255 is white
     stroke(255);
     //line draws a line, 200 is halfways
-    line(200, height, 200, height-length);
+    branch(100);
 }
-
+function branch(length) {
+    line(200, height, 200, height-length)
+}

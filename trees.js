@@ -1,3 +1,7 @@
+//this was made with a tutorial from The Coding Train
+//video available https://www.youtube.com/watch?v=0jjeOYMjmDU
+
+
 let angle = 0;
 let slider;
 function setup() {

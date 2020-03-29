@@ -14,9 +14,10 @@ function draw() {
 }
 function branch(length) {
     line(0, 0, 0, -length);
-    //I now want to draw from the new location at the top of the first line
+    //I now want to draw from the new location at the top of the first line 
     translate(0, -length)
     //pi / 4 is 45 degrees
     rotate(PI/4);
-    line(0, 0, 0, -length);
+    if (length > 2);
+    branch(length * 0.67)
 }

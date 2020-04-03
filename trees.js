@@ -5,7 +5,7 @@
 let angle = 0;
 let slider;
 function setup() {
-    createCanvas(400, 400);
+    createCanvas(600, 600);
     slider = createSlider(0,TWO_PI, PI / 4);
 }
 
@@ -16,7 +16,7 @@ function draw() {
     //this sets the line to white, 255 is white
     stroke(255);
     //translate sets where I am starting from, it sets the start location
-    translate(200, height);
+    translate(300, 300);
     branch(100);
 }
 function branch(length) {
@@ -34,3 +34,4 @@ function branch(length) {
     pop();
     };
 }
+
